@@ -29,15 +29,16 @@
 // expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 // Elements of input arrays can be modified.
 
-// Correctness: 100%	Performance: 60%
+// Correctness: 100%	Performance: 100%
 
 
 int solution(NSMutableArray *A) {
     int count_A = [A count];
     int sum = 0;
-    int sum_with_missing = (count_A+1)*(count_A+2)/2;
+    int sum_with_missing = 2 * count_A + 1; 
     for (int i=0; i<count_A; ++i) {
-        sum = sum + [[A objectAtIndex:i] intValue];
+        sum += [[A objectAtIndex:i] intValue];
+        sum_with_missing += i;
     }
     return sum_with_missing - sum;
 }
