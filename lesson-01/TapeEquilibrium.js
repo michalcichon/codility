@@ -1,5 +1,7 @@
 // TapeEquilibrium
 
+// C: 100% P: 100%
+
 // A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 
 // Any integer P, such that 0 < P < N, splits this tape into two non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1], ..., A[N − 1].
@@ -45,8 +47,6 @@
 // expected worst-case time complexity is O(N);
 // expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 // Elements of input arrays can be modified.
-
-// Correctness: 100%	Performance: 100%
 
 
 function solution(A) {

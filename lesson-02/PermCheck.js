@@ -1,5 +1,7 @@
 // PermCheck
 
+// C: 100% P: 100%
+
 // A non-empty zero-indexed array A consisting of N integers is given.
 // A permutation is a sequence containing each element from 1 to N once, and only once.
 // For example, array A such that:
@@ -34,8 +36,6 @@
 // expected worst-case time complexity is O(N);
 // expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 // Elements of input arrays can be modified.
-
-// Correctness: 100%	Performance: 100%
 
 
 function solution(A) {
