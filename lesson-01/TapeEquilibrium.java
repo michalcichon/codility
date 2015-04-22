@@ -49,7 +49,7 @@
 // Elements of input arrays can be modified.
 
 
-class Solution {
+class TapeEquilibrium {
     public int solution(int[] A) {
         int leftSum = A[0];
         int rightSum = 0;
